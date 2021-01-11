@@ -1,0 +1,49 @@
+#main{
+  display:block;
+  text-align:center;
+  margin-top: 2%;
+  padding: 5px;
+  background: #eee;
+}
+#heading{
+  display: block;
+  margin: 10px 10px;
+}
+#title{
+  display: block;
+  margin: 5px;
+  font-weight:bold;
+  font-size: 3rem;
+}
+#intro{
+  display:block;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 10px;
+}
+#img-div{
+  background: white;
+  margin: 2%;
+  padding: 2%;
+}
+#image{
+  display:block;
+  margin:auto;
+  margin-bottom: 2%;
+  height: auto;
+  max-width: 80%;
+}
+#tribute-info{
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #333;
+}
+ul{
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+}
+li{
+  text-align: left;
+}
