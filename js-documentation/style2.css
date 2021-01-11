@@ -1,0 +1,53 @@
+body{
+  font-size: 1.2em;
+  font-weight: thin;
+}
+a{
+  text-decoration: none;
+}
+#navbar{
+
+  position: fixed;
+  left: 0px; 
+  top: 0px;
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  padding-top: 2%;
+  display: block;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+#navbar ul{
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0px;
+}
+
+#navbar ul li{
+  text-align: left;
+  width: 100%;
+  margin-top: 1%;
+  border-top: 1px solid;
+  list-style:none;
+  padding: 2%;
+  padding-left: 10%;
+}
+#navbar a{
+    cursor: pointer;
+}
+#main-doc{
+  position: relative;
+  display:block;
+  width: 70%;
+  margin-left: 25%;
+  height: 100%;
+  padding: 2%;
+}
+header{
+  font-size: 1.7em;
+  font-weight: bold;
+}
+@media{
+  
+}
