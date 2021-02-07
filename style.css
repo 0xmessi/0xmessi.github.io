@@ -87,8 +87,6 @@ nav a{
   object-fit: cover;
 }
 .project-image img{
-  height: 100%;
-  width: auto;
   object-fit: cover;
 }
 .project-names{
