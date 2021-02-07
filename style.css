@@ -111,6 +111,9 @@ nav a{
    background: #303841;
   transition: background 0.3s ease-out;
 }
+#showAll p{
+  margin: auto;
+}
 #showAll:hover{
   background: #aa0505;
 }
