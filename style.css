@@ -83,11 +83,15 @@ nav a{
 }
 .project-image{
   height: 75%;
-  width: auto;
-  object-fit: cover;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 .project-image img{
-  object-fit: cover;
+  height: 100%;
+  width: auto;
+  overflow:hidden;
 }
 .project-names{
   display: flex;
