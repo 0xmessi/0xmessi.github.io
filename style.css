@@ -86,6 +86,11 @@ nav a{
   width: auto;
   object-fit: cover;
 }
+.project-image img{
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
 .project-names{
   display: flex;
   justify-content: center;
