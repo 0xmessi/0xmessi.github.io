@@ -90,6 +90,7 @@ nav a{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 #showAll{
   display: block;
