@@ -84,7 +84,7 @@ nav a{
 .project-image{
   height: 75%;
   width: auto;
-  overflow: hidden;
+  object-fit: cover;
 }
 .project-names{
   display: flex;
