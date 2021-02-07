@@ -81,9 +81,15 @@ nav a{
   height: 100%;
   width: 100%;
 }
-.project-tile a img{
+.project-image{
   height: 75%;
-  width: 100%;
+  width: auto;
+  overflow: hidden;
+}
+.project-names{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #showAll{
   display: block;
